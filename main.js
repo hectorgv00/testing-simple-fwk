@@ -1,8 +1,5 @@
 class TestFramework {
   tests = [];
-  constructor() {
-    this.tests = [];
-  }
 
   describe(description, callback) {
     console.log(`\n${description}`);
