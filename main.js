@@ -1,4 +1,5 @@
 class TestFramework {
+  tests = [];
   constructor() {
     this.tests = [];
   }
